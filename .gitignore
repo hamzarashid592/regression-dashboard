@@ -1,0 +1,81 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Logs
+logs/
+*.log
+
+# Credentials / Secrets
+credentials.json
+config.json  # Optional: if config.json contains sensitive tokens/keys
+
+# Local settings
+.env
+.env.*
+
+# Mac OS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Python version management (optional)
+.python-version
+
+# Flask cache files
+instance/
+.webassets-cache/
+
+# Jupyter Notebooks (if any)
+.ipynb_checkpoints/
+
+# System Files
+Thumbs.db
+ehthumbs.db
+Icon?

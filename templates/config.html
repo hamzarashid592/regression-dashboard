@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Configuration Settings</title>
+    <script src="/static/config.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    <h2>Configuration Settings</h2>
+    
+    <form id="config-form">
+        <label for="REGRESSION_SHEET_KEY">Sheet Key:</label><br>
+        <input type="text" id="REGRESSION_SHEET_KEY" name="REGRESSION_SHEET_KEY"><br><br>
+
+        <label for="MANTIS_TICKETS_NEXUS_E6">Sheet Name:</label><br>
+        <input type="text" id="MANTIS_TICKETS_NEXUS_E6" name="MANTIS_TICKETS_NEXUS_E6"><br><br>
+
+        <label for="REGRESSION_FILTER_ID">Mantis Filter ID:</label><br>
+        <input type="text" id="REGRESSION_FILTER_ID" name="REGRESSION_FILTER_ID"><br><br>
+
+        <label for="JOB_INTERVAL_MINUTES">Job Interval (minutes):</label><br>
+        <input type="number" id="JOB_INTERVAL_MINUTES" name="JOB_INTERVAL_MINUTES"><br><br>
+
+        <button type="button" onclick="saveConfig()">Save Config</button>
+    </form>
+
+    <button onclick="goBack()">Back to Home</button>
+</body>
+</html>

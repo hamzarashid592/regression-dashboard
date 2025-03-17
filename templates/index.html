@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mantis Ticket Sync Automation</title>
+    <script src="/static/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    <h2>Mantis Ticket Sync Automation</h2>
+    
+    <button onclick="triggerJob()">Run Sync Now</button>
+    <button onclick="goToConfig()">Configurations</button>
+
+    <div id="status-box">
+        <p>Status: <span id="job-status">Idle</span></p>
+        <progress id="progress-bar" value="0" max="100"></progress>
+    </div>
+
+    <div id="schedule-box">
+        <p>Next Scheduled Run: <span id="next-run-time">Fetching...</span></p>
+        <p>Time Left: <span id="countdown-timer">--:--:--</span></p>
+    </div>
+
+    <h3>Download Logs</h3>
+    <input type="date" id="log-date">
+    <button onclick="downloadLog()">Download Log</button>
+</body>
+</html>

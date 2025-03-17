@@ -206,7 +206,7 @@ pip install -r requirements.txt
 
 ## 📄 License
 
-MIT / Private / Custom (Choose your license)
+N/A
 
 ---
 
